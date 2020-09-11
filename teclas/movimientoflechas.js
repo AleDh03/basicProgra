@@ -1,6 +1,6 @@
 function dibujarTeclado(evento)
 
-var colorcito = "green";
+   var colorcito = "green";
 var movimiento = 12;
 switch(evento.keyCode)
 {
@@ -22,7 +22,7 @@ switch(evento.keyCode)
         break;
     default:
         console.log("otra tecla");
-        break;   
+ break;   
 }
 function dibujarTeclado(evento)
 
@@ -48,5 +48,5 @@ switch(evento.keyCode)
         break;
     default:
         console.log("otra tecla");
-        break;   
+              break;   
 }

@@ -1,22 +1,22 @@
 class Pakiman {
-  constructor(nombre, vida, ataque) {
+  constructor(name, live, attack) {
     this.imagen = new Image();
-    this.nombre = nombre;
-    this.vida = vida;
-    this.ataque = ataque;
+    this.name = name;
+    this.live = live;
+    this.attack = attack;
 
     //carga la imagen y su descripción
-    this.imagen.src = imágenes[this.nombre];
+    this.imagen.src = imágenes[this.name];
   }
 
   hablar() {
-    alert(this.nombre);
+    alert(this.name);
   }
 
   mostrar() {
     document.body.appendChild(this.imagen);
-    document.write("<br /><strong>" + this.nombre + "</strong><br />");
-    document.write("Vida: " + this.vida + "<br />");
-    document.write("Ataque: " + this.ataque + "<hr />");
+    document.write("<br /><strong>" + this.name + "</strong><br />");
+    document.write("live: " + this.live + "<br />");
+    document.write("attack: " + this.attack + "<hr />");
   }
 }

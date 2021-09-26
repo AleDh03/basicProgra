@@ -1,7 +1,10 @@
+// “Lo que no se define no se puede medir. Lo que no se mide no se puede mejorar. Y todo lo que no se mejora, bien sea cualitativa o cuantitativamente està condenado a la degradaciòn”
+
+
 var vp = document.getElementById("villap");
 var papel = vp.getContext("2d");
 
-var reclas = {
+var teclas = {
   LEFT: 37,
   UP: 38,
   RIGHT: 39,

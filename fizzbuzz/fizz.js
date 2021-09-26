@@ -1,6 +1,6 @@
 //imprime los números del 1 al 100.. 9:30
-var números = 100;
-var divisible = false;
+let números = 100;
+let divisible = false;
 
 for (var i = 1; i <= 100; i++) {
   if (esDivisible(i, 3)) {
